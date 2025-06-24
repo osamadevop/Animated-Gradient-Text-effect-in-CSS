@@ -1,0 +1,23 @@
+  h1 {
+    background: linear-gradient(
+        to right,
+        #CC98FF 20%,
+        #00affa 30%,
+        #0190cd 70%,
+        #FC96FF 80%
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    background-size: 500% auto;
+    animation: animatedText 4s ease-in-out infinite alternate;
+}
+@keyframes animatedText {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
+}
